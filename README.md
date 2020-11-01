@@ -89,8 +89,8 @@ Additionally we can use the `cat` command. Instead of printing a certain number 
 ## End Notes
 
 There is so much to using the terminal than what was covered in this short tutorial. Definitely go out there and do some research about all the things you can do in the command line, You will definitely be surprised! Some useful links:
-
 	- [Intro to Bash Scripting](https://www.youtube.com/watch?v=v-F3YLd6oMw)
+
 	- [Linux File Structure](https://www.youtube.com/watch?v=HbgzrKJvDRw)
 
 

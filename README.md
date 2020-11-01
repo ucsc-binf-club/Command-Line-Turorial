@@ -84,9 +84,12 @@ Another useful command might be the `cp` command. As you might have guessed, it 
 
 How can we take a look at files within the terminal? There are a couple main commands to use. Of course, you can open up whatever you want in your text editor. In addition to that we have the `head` and `tail` commands. By default `head` will print the *first* 10 lines of whatever file you want, whereas `tail` will print the *last* 10 lines of the file. These commands are very useful for taking a peak into longer files. 
 
+Additionally we can use the `cat` command. Instead of printing a certain number of files for us to see, `cat` will print the contents of our entire file to the terminal. 
+
 ## End Notes
 
 There is so much to using the terminal than what was covered in this short tutorial. Definitely go out there and do some research about all the things you can do in the command line, You will definitely be surprised! Some useful links:
+
 	- [Intro to Bash Scripting](https://www.youtube.com/watch?v=v-F3YLd6oMw)
 	- [Linux File Structure](https://www.youtube.com/watch?v=HbgzrKJvDRw)
 

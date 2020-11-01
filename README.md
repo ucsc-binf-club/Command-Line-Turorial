@@ -80,6 +80,10 @@ Let's say you want to make a new folder to put files in. Again, this is very sim
 
 Another useful command might be the `cp` command. As you might have guessed, it stands for copy and works very similarly to the other commands we have covered previously. 
 
+### Viewing Files
+
+How can we take a look at files within the terminal? There are a couple main commands to use. Of course, you can open up whatever you want in your text editor. In addition to that we have the `head` and `tail` commands. By default `head` will print the *first* 10 lines of whatever file you want, whereas `tail` will print the *last* 10 lines of the file. These commands are very useful for taking a peak into longer files. 
+
 
 
 

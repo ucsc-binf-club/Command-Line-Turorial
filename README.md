@@ -43,9 +43,42 @@ In the example above we can see that I am in the ucsc\_bash\_tut folder which is
 `ls` stands for list, and again, it does exactly what it implies. We can use it list all the files within a directory. For example:
 
 	$ ls
-	README.md    test_files
+	README.md test_files
 
 We can see that this is what our ucsc\_bash\_tut folder contains. Now of course there are a lot of other combinations of movement commands and useful flags but these are the essentials.
+
+Okay, so we can now go into folders and take a look at its constants, but what happens when you want to go back out of the folder. You have 2 options: you can cd back into the previous folder, *or* you can use `cd ..`. This command takes you back a folder. 
+
+### Working with Files
+
+Now that we know how to navigate through our file system we want to be able to work with files. How do we create files? There a plethora of command line text editors (you may have heard of `vim`, `emacs`, `nano`), however the most user friendly one is `nano`. Whichever text editor you use, look up the syntax to see specifically what you need to do. Generally it is `name of the editor` followed by `name of file you want to create`. For example `vim test.md` creates a markdown file called `test`. Once within your text editor you can write whatever you want similar to any other editor such as vscode or sublime text. 
+
+Lets say, you've created your file, but you created it in the wrong place and you want to move it. Unsurprisingly there is the `mv` command. To use `mv` all you need to do is give the file you're moving a location to move to. For example, we want to move `test.md` from `ucsc_bash_tut` to `test_files`. We can do:
+	
+	$ mv test2.txt test_files
+	$ cd test_files
+	$ ls
+	test2.txt
+
+Another use for the `mv` command is to *rename* files. Instead of providing a path to move the file to, you can simply provide the new name that you want to use. 
+	
+	$ ls
+	test2.txt
+	$ mv test2.txt new_test2.txt
+	$ ls
+	new_test2.txt
+
+Okay so we have created, edited, and renamed files, but how do we remove files? Simple, we use the `rm` command. We can provide `rm` the name of the file we want to delete and it will remove it for us. Keep in mind that by default using `rm` only lets you delete files. There is a different syntax for folders.
+
+Let's say you want to make a new folder to put files in. Again, this is very simple within the command line. We can use the `mkdir` command. 
+	
+	$ ls
+	new_test2.txt
+	$ mkdir new_folder
+	$ ls
+	new_test2.txt new_folder
+
+Another useful command might be the `cp` command. As you might have guessed, it stands for copy and works very similarly to the other commands we have covered previously. 
 
 
 
